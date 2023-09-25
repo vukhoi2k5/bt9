@@ -9,14 +9,12 @@ int main()
     scanf("%d",&max);
 
 
-
-
-    if(j=max ,i<j,i++)
+    if(i=1 ,i<=max,i++)
     {
 
 
 
-        for (k=0 ; k<j;k++)
+        for (k=i ; k<=i;k++)
         {
             printf("\n");
             for (h=0;h<=k;h++)
@@ -26,6 +24,23 @@ int main()
 
 
         }
+
+    }
+    else
+    {
+        for(k=i; k>=max ; k--)
+        {
+            printf("\n");
+            for(h=0;h<=k;h++)
+            {
+                printf("%d",h);
+
+            }
+
+
+
+        }
+
 
     }
 
